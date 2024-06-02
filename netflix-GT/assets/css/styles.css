@@ -1,0 +1,167 @@
+
+body {
+    background: #000;
+    color: white; 
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.header {
+    padding: 15px;
+    position: relative;
+    z-index: 2;
+    background-image: linear-gradient(to bottom, black );
+     
+}
+
+.navigation-list {
+    list-style: none;
+    text-align: center;
+    border: 1px;
+}
+
+.navigation {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+
+.featured {
+    margin-top: -90px;
+    position: relative;
+
+}
+
+.detalles-featured {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    background-image: linear-gradient(to top, black 0%, transparent 100%);
+
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0%;s
+}
+
+.tag {
+    display: flex;
+}
+
+tag::before {
+    content: '.';
+    margin-right: 10px;
+    position: relative;
+    top: 2px; 
+}
+
+.tag:first-child::before {
+    display: none;
+}
+
+.accion-featured {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2em;
+
+}
+.button {
+    list-style: none;
+    text-align: center;
+
+}
+
+.button-secondary {
+    text-align: center;
+    list-style: none;
+    text-align: center;
+
+}
+
+.button-secondary::before {
+    list-style: none;
+    text-align: center;
+    
+}
+.icon-plus {
+  
+    color: black;
+    list-style: none;
+    text-align: center;
+}
+
+.button-icon-play {
+    background:url() ;
+    color: white;
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+.icon-info {s
+    color: black;
+    list-style: none;
+    text-align: center;
+}
+
+
+.button-item {
+   
+    white-space: nowrap;
+    overflow-x: auto;
+    
+
+}
+.list-button {
+    display: grid;
+    grid-auto-flow:column ;
+    list-style: none;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+
+}
+.list-button:first-child {
+    margin: 0;
+    
+}
+.list {
+    
+    padding: 0 1em;
+}
+
+.footer {
+    */ border: 1px solid red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 1em 0 0;
+}
+.tabs-list{
+    */ border: 1px solid green;
+     margin: 0;
+     padding: 0;
+     display: grid;
+     grid-auto-flow: column;
+     list-style: none;
+     color: #6e6e6e;
+ }
+ .tabs-list a{
+     color: #6e6e6e;  
+     padding-bottom: 1em;  
+ }
+
+
